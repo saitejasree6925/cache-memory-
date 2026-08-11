@@ -1,0 +1,17 @@
+Simulation Results
+
+Test Cases
+
+Test Case| Address| Data| Expected
+Write| "25H"| "ABH"| Data stored in cache
+Read| "25H"| "ABH"| Cache Hit
+Read| "35H"| "00H"| Cache Miss
+
+Expected Output
+
+Address = 25, Data = ab, Hit = 1
+Address = 35, Data = 00, Hit = 0
+
+Result
+
+The cache memory successfully demonstrates basic cache hit and cache miss operations using a direct-mapped cache architecture.
